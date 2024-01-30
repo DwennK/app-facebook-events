@@ -53,7 +53,7 @@ const eventData = {
 				"offset_y": 18,
 				"source": "https:\/\/scontent-zrh1-1.xx.fbcdn.net\/v\/t39.30808-6\/423248317_906636894798855_3316101072865335825_n.png?stp=dst-jpg&_nc_cat=106&ccb=1-7&_nc_sid=22a186&_nc_ohc=Cy36vEidyNYAX9DNKP3&_nc_ht=scontent-zrh1-1.xx&edm=AJKTm1sEAAAA&oh=00_AfB1aE1dsHdloIh3lYjAQARtCA_fTdWBMg0a2mWJBnF01w&oe=65BDD859",
 				"id": "906636898132188"
-			},
+			}, 
 			"guest_list_enabled": true,
 			"is_canceled": false,
 			"is_draft": false,
