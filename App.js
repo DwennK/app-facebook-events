@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, FlatList, Image, Text, TouchableOpacity } from 'react-native';
 import { Card } from 'react-native-elements';
+import { StatusBar } from 'expo-status-bar';
 
 const eventData = {
 	"data": [
@@ -201,6 +202,7 @@ const EventCard = ({ event }) => {
         )}
       </Card>
     </TouchableOpacity>
+	
   );
 };
 
@@ -214,6 +216,7 @@ const App = () => {
         keyExtractor={item => item.id}
 
       />
+	<StatusBar style="light" />
     </View>
 
   );
